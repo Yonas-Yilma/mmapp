@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+#me{
+    color:red;
+    background-color: yellowgreen;
+    width:300px;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Image Change on DOM Loaded</h1>
+<img
+  id="example-img"
+  src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+  alt="Cat relaxing"
+/>
+
+    <h1>This is the top line</h1>
+    <h2>
+     This is the next line
+    </h2>
+    <input type="text" id="input" placeholder="Type something" />
+    <p id="me">this the paragraph about web development</p>
+    <ol>
+        <li>point 1
+            <ul>
+                <li>subpoint1</li>
+                <li>subpoint2</li>
+            </ul>
+        </li>
+        <li>point2
+            <ul>
+                <li>
+                    subpoint1
+                </li>
+                <li>sub point2</li>
+            </ul>
+        </li>
+        <li>points without subpoint</li>
+
+    </ol>
+    //this about tables
+    <table>
+        <thead>
+            <tr>
+                <th id="information">Contacts name</th>
+                <th>Phone number</th>
+                <th>Email addres</th>
+                <th>COmpany name</th>
+                <th>Last contacts</th>
+            </tr>
+        </thead>
+        <tbody><tr>
+            <td>William smith</td>
+            <td>555-642-7371</td>
+            <td>william@testing.com</td>
+            <td>ACME Industries</td>
+            <td>2014-10-21</td>
+        </tr>
+        <tr>
+            <td>bob morries</td>
+            <td>555-999-2991</td>
+            <td>bob@testing.com</td>
+            <td>ABC corp</td>
+            <td>2014-09-12</td>
+        </tr>
+    </tbody>
+        <tfoot><tr>
+            <td colspan="5">contacsts displayed</td>
+        </tr></tfoot>
+        <caption>Sales lead</caption>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Tage name</th>
+                <th>Category</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+           
+        <tr>
+            <td>ul</td>
+            <td>list</td>
+            <td>create unorder list</td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td>list</td>
+            <td>create order list</td>
+        </tr>
+        <tr><td>li</td>
+            <td>list</td>
+            <td>create a list item</td></tr>
+        <tr><td>dl</td>
+            <td>list</td>
+            <td>create adescription list</td>
+        </tr>
+    </tbody>
+    </table>
+    <div id="all weeks">This is the content of the element.</div>
+<script>
+    document.getElementById("me").innerText = "New me";
+const element= document.getElementById("all weeks");
+ element.style.color="green";
+ element.innerHTML="I AM YONAS YILMA THE SON";
+ console.log(element);
+ 
+</script>
+
+    
+</body>
+</html>

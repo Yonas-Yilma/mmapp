@@ -1,0 +1,52 @@
+
+#tsdata{
+  text-align: center; /* Centers the text */
+  font-weight: bold; /* Makes it bold */
+  color: black; /* Makes it dark */
+}
+#my_counter_app{
+  text-align: center;
+  color:green;
+}
+body {
+   background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-14-920x518.jpg");
+  display: flex;
+  flex-direction: column; /* Arranges buttons vertically */
+  align-items: center; /* Centers them horizontally */
+  justify-content: center; /* Centers them vertically */
+  height: 100vh; /* Makes them take full height of the viewport */
+}
+button {
+  display: block; /* Ensures buttons appear one below the other */
+  margin-bottom: 10px; /* Adds some space between buttons */
+ 
+}
+#increment_btn{
+  background-color: aqua;
+}
+#save_btn{
+  color: blue;
+  background-color: red;
+}
+.container
+  {
+    background: white;
+    max-width: 80%;
+    margin:auto;
+    border:3px solid black;
+    border-radius:10px;
+    display: flex;
+  flex-direction: column; /* Makes the elements stack vertically */
+  align-items: center; /* Centers them horizontally */
+     /* Makes the parent take full viewport height */
+  }
+
+
+
+
+
+
+
+
+
+  
